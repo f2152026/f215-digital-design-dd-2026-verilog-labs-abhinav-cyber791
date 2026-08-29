@@ -31,7 +31,7 @@ module cla4(
 
   wire p0, p1, p2, p3;
   wire g0, g1, g2, g3;
-  wire c1, c2, c3;
+  wire c1, c2, c3, c4;
 
   // TODO: your gate-level P/G, carry, and sum logic goes here.
    wire t10;
