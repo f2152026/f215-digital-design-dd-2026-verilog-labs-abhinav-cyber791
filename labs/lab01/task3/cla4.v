@@ -31,6 +31,7 @@ module cla4(
   wire g0, g1, g2, g3;
   wire c1, c2, c3, c4;
 
+// TODO: your gate-level P/G, carry, and sum logic goes here.
   wire t10;
   wire t20, t21;
   wire t30, t31, t32;
@@ -66,7 +67,7 @@ or  #(2) (c4, g3, t40, t41, t42, t43);
 
 
 
-  // TODO: your gate-level P/G, carry, and sum logic goes here.
+  
   // (cout should be connected to c4.) Remember the delay on every gate.
 assign cout= c4;
 
